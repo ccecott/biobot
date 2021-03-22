@@ -4,14 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // should I move this to a separate component?
-import { DatePicker } from 'antd';
-import 'antd/dist/antd.css'; 
+// import { DatePicker } from 'antd';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <DatePicker />
+    {/* <DatePicker /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

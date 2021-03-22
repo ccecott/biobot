@@ -1,18 +1,38 @@
-import Header from './components/Header'
+import HeaderComp from './components/HeaderComp'
+import Calendar from './components/Calendar'
 import Data from './components/Data'
-// import { DatePicker } from 'antd';
+import { Layout } from 'antd';
+
+const { Header, Content, Footer } = Layout;
+
+
+
 
 
 function App() {
 
   return (
-    <div className='container'>
-      <Header />
+    <Layout className="mainLayout">
+    <Header>
+     <HeaderComp /> 
+      
+    </Header>
+    <Content style={{ padding: '0 50px' }}>
+      <div className="site-layout-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '400px' }}>
+      <Calendar />
       <Data />
-      {/* <DatePicker /> */}
-    </div>
-  )
+
+      </div>
+    </Content>
+    <Footer style={{ textAlign: 'center' }}>Biobot Analytics ©2021</Footer>
+  </Layout>
+    // <div className='container'>
+
+      
+      
+    // </div>
   
+  )
 }
 
 
