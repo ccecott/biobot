@@ -22,7 +22,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-[http://localhost:5000]
+http://localhost:5000
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
@@ -37,10 +37,13 @@ This was my first React project. Before using React I completed projects using A
 
 
 ### TODO
--Add functionality to the DatePicker: when a date is selected, the value is then compaired to dates from API (stored inside an array)which loops through to find the matching date which in turn renders that data on the page. 
--Add in the data visualization portion of this project 
--Continue stlying project 
--I would like to also add an about section to explain what Biobot does and how they are working with the communities around them
+Add functionality to the DatePicker: when a date is selected, the value is then compaired to dates from API (stored inside an array)which loops through to find the matching date which in turn renders that data on the page. 
+
+Add in the data visualization portion of this project 
+
+Continue stlying project 
+
+I would like to also add an about section to explain what Biobot does and how they are working with the communities around them
 
 
 
